@@ -1,8 +1,5 @@
-# An abstract factory is a factory that gives you instantiated objects from a
-# group of related abstract classes via concreate factories embedded
-# in the abstract factory
-
-# Abstract factory groups object factories that have a common theme
+# The abstract factory pattern is a factory of factories really.
+# In most cases the factories involved are related by a theme
 
 class Button
   def paint
